@@ -22,32 +22,56 @@ form
 {
     margin-top: 50px;
 }
-div {
+div 
+{
     margin-top: 20px;
     margin-bottom: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-label, input, button {
+}
+label, input, button 
+{
     font-size: 16px;
     line-height: 1.5
-  }
-label {
+}
+label 
+{
     text-align: left;
     width: 30%;
     margin-right: 2%;
-  }
-  input {
+}
+input 
+{
     flex: auto;
-  }
-  button {
+}
+button 
+{
     width: 70%;
     margin:  auto;
-  }
-  error-output
-  {
+}
+error-output
+{
       font-size: 12px;
       font-style: italic;
       color: red;
-  }
+}
+
+/*Uc6- Media Queries*/
+@media only screen and (max-width:360px)
+{
+    .headerContainer{
+        font-size:20px;
+        text-align:center;
+        background : aqua;
+    }
+    label{
+        width:35%;
+        font-size:12px;
+        margin-right:0%;
+        text-align:left;
+    }
+    input{
+        width:40%;
+    }
+}
